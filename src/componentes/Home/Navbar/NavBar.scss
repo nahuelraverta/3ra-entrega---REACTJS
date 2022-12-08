@@ -1,0 +1,28 @@
+
+
+.NavBar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-size: 1.5rem;
+    padding: 0 50px;
+    .ImgLogo{
+        width: 10vw;
+    }
+    .NavMenu{
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+        a{
+            color: white;
+            text-decoration: none;
+
+            :hover{
+                color: blue;
+            }
+        }
+    }
+}

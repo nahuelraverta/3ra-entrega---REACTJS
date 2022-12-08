@@ -1,0 +1,27 @@
+.Item {
+  box-shadow: rgba(26, 107, 142, 0.12) 0px 2px 4px 0px, rgba(1, 55, 72, 0.23) 0px 2px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+  color: black;
+  width: 250px;
+}
+.Item .ImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.Item .ImgContainer img {
+  width: 100%;
+}
+.Item h3 {
+  margin: 0;
+}
+.Item p {
+  margin: 0;
+}/*# sourceMappingURL=Item.css.map */

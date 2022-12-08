@@ -1,0 +1,21 @@
+.CartWidget{
+    color: white;
+}
+
+.empty{
+    display: none;
+}
+
+.cartNumber{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    top: 0px;
+    right: 45px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
